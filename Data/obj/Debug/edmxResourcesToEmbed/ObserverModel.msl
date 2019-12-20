@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataProductsModelStoreContainer" CdmEntityContainer="DataProductsEntities">
+    <EntitySetMapping Name="CatBrands">
+      <EntityTypeMapping TypeName="DataProductsModel.CatBrands">
+        <MappingFragment StoreEntitySet="CatBrands">
+          <ScalarProperty Name="IdBrand" ColumnName="IdBrand" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCatalogs">
+      <EntityTypeMapping TypeName="DataProductsModel.CatCatalogs">
+        <MappingFragment StoreEntitySet="CatCatalogs">
+          <ScalarProperty Name="IdCatalog" ColumnName="IdCatalog" />
+          <ScalarProperty Name="IdProvider" ColumnName="IdProvider" />
+          <ScalarProperty Name="Season" ColumnName="Season" />
+          <ScalarProperty Name="StarActiveDate" ColumnName="StarActiveDate" />
+          <ScalarProperty Name="EndActiveDate" ColumnName="EndActiveDate" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatColors">
+      <EntityTypeMapping TypeName="DataProductsModel.CatColors">
+        <MappingFragment StoreEntitySet="CatColors">
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="HexaDecimal" ColumnName="HexaDecimal" />
+          <ScalarProperty Name="IsEnable" ColumnName="IsEnable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatProviders">
+      <EntityTypeMapping TypeName="DataProductsModel.CatProviders">
+        <MappingFragment StoreEntitySet="CatProviders">
+          <ScalarProperty Name="IdProvider" ColumnName="IdProvider" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatRatings">
+      <EntityTypeMapping TypeName="DataProductsModel.CatRatings">
+        <MappingFragment StoreEntitySet="CatRatings">
+          <ScalarProperty Name="IdRating" ColumnName="IdRating" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatSizes">
+      <EntityTypeMapping TypeName="DataProductsModel.CatSizes">
+        <MappingFragment StoreEntitySet="CatSizes">
+          <ScalarProperty Name="IdSize" ColumnName="IdSize" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Unity" ColumnName="Unity" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatTypeDetails">
+      <EntityTypeMapping TypeName="DataProductsModel.CatTypeDetails">
+        <MappingFragment StoreEntitySet="CatTypeDetails">
+          <ScalarProperty Name="IdTypeDetail" ColumnName="IdTypeDetail" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatTypeProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.CatTypeProduct">
+        <MappingFragment StoreEntitySet="CatTypeProduct">
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="DataProductsModel.Comments">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="IdComent" ColumnName="IdComent" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdRating" ColumnName="IdRating" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="DateCommnet" ColumnName="DateCommnet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules">
+      <EntityTypeMapping TypeName="DataProductsModel.database_firewall_rules">
+        <MappingFragment StoreEntitySet="database_firewall_rules">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules1">
+      <EntityTypeMapping TypeName="DataProductsModel.database_firewall_rules1">
+        <MappingFragment StoreEntitySet="database_firewall_rules1">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.DetailProduct">
+        <MappingFragment StoreEntitySet="DetailProduct">
+          <ScalarProperty Name="IdDetail" ColumnName="IdDetail" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdTypeDetail" ColumnName="IdTypeDetail" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImagesProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.ImagesProduct">
+        <MappingFragment StoreEntitySet="ImagesProduct">
+          <ScalarProperty Name="IdImage" ColumnName="IdImage" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="Decription" ColumnName="Decription" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DataProductsModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="IdBrand" ColumnName="IdBrand" />
+          <ScalarProperty Name="IdProvider" ColumnName="IdProvider" />
+          <ScalarProperty Name="IdCatalog" ColumnName="IdCatalog" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="PriceDistributor" ColumnName="PriceDistributor" />
+          <ScalarProperty Name="PriceClient" ColumnName="PriceClient" />
+          <ScalarProperty Name="PriceMember" ColumnName="PriceMember" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Qualification">
+      <EntityTypeMapping TypeName="DataProductsModel.Qualification">
+        <MappingFragment StoreEntitySet="Qualification">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdRating" ColumnName="IdRating" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SimilarProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.SimilarProduct">
+        <MappingFragment StoreEntitySet="SimilarProduct">
+          <ScalarProperty Name="IdSimilarProduct" ColumnName="IdSimilarProduct" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdSimilary" ColumnName="IdSimilary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SizeForProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.SizeForProduct">
+        <MappingFragment StoreEntitySet="SizeForProduct">
+          <ScalarProperty Name="IdSizeProduct" ColumnName="IdSizeProduct" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdSize" ColumnName="IdSize" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DataProductsModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules2">
+      <EntityTypeMapping TypeName="DataProductsModel.database_firewall_rules2">
+        <MappingFragment StoreEntitySet="database_firewall_rules2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Show" FunctionName="DataProductsModel.Store.Show">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DataProductsModel.Show_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdType" ColumnName="IdType" />
+          <ScalarProperty Name="IdColor" ColumnName="IdColor" />
+          <ScalarProperty Name="IdBrand" ColumnName="IdBrand" />
+          <ScalarProperty Name="IdProvider" ColumnName="IdProvider" />
+          <ScalarProperty Name="IdCatalog" ColumnName="IdCatalog" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Observations" ColumnName="Observations" />
+          <ScalarProperty Name="PriceDistributor" ColumnName="PriceDistributor" />
+          <ScalarProperty Name="PriceClient" ColumnName="PriceClient" />
+          <ScalarProperty Name="PriceMember" ColumnName="PriceMember" />
+          <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DataProductsModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DataProductsModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DataProductsModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DataProductsModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DataProductsModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DataProductsModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DataProductsModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DataProductsModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DataProductsModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="ChangesOnProduct">
+      <EntityTypeMapping TypeName="DataProductsModel.ChangesOnProduct">
+        <MappingFragment StoreEntitySet="ChangesOnProduct">
+          <ScalarProperty Name="ActionMade" ColumnName="ActionMade" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+          <ScalarProperty Name="IdLog" ColumnName="IdLog" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

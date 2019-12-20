@@ -1,0 +1,14 @@
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\Data.dll.config
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\Data.dll
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\Data.pdb
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\Common.dll
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\EntityFramework.dll
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\Common.pdb
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\EntityFramework.xml
+C:\Users\Curso\source\repos\FileWatcher\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Curso\source\repos\FileWatcher\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\FileWatcher\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\FileWatcher\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Curso\source\repos\FileWatcher\Data\obj\Debug\Data.dll
+C:\Users\Curso\source\repos\FileWatcher\Data\obj\Debug\Data.pdb

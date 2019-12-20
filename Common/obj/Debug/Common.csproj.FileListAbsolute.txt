@@ -1,0 +1,6 @@
+C:\Users\Curso\source\repos\FileWatcher\Common\bin\Debug\Common.dll
+C:\Users\Curso\source\repos\FileWatcher\Common\bin\Debug\Common.pdb
+C:\Users\Curso\source\repos\FileWatcher\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\FileWatcher\Common\obj\Debug\Common.dll
+C:\Users\Curso\source\repos\FileWatcher\Common\obj\Debug\Common.pdb
+C:\Users\Curso\source\repos\FileWatcher\Common\obj\Debug\Common.csprojAssemblyReference.cache

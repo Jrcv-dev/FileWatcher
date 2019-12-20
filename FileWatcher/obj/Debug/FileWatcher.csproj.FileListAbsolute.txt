@@ -1,0 +1,17 @@
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.pdb
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\Common.dll
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\Data.dll
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\EntityFramework.dll
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\Common.pdb
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\Data.pdb
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\Data.dll.config
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\EntityFramework.xml
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CopyComplete
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Curso\source\repos\FileWatcher\FileWatcher\bin\Debug\EntityFramework.SqlServer.xml
