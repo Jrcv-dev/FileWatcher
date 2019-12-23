@@ -38,7 +38,10 @@ namespace FileWatcher
             {
                 Program.Changeslocked = true;
                 if (e.Name.Split('.')[0] == "0")
+                {
                     D.InsertProduct(Common.Common.DeserializeList<Producto>(e.Name));
+                    Program.Logs.Add("Se realizo un insert en el folder" + DateTime.Now);
+                }
                 else
                     D.UpdateProduct(Common.Common.DeserializeList<Producto>(e.Name));
                 Console.WriteLine("Archivo Guardado");
